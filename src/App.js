@@ -15,7 +15,6 @@ function App() {
     <VStack p={5}>
       <Flex w="100%">
         <Spacer/>
-
         <IconButton icon={<FaLinkedin />} isRound="true"></IconButton>
         <IconButton ml={2} icon={<FaInstagram />} isRound="true"></IconButton>
         <IconButton ml={2} icon={<FaGithub />} isRound="true"></IconButton>
