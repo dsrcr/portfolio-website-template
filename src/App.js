@@ -4,8 +4,8 @@ import { useColorMode } from "@chakra-ui/color-mode";
 import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin} from 'react-icons/fa'
 import Spacer from "react-spacer";
 import Header from "./components/Header"
-import Profile from "./components/Profile"
-import Social from "./components/Social"
+// import Profile from "./components/Profile"
+// import Social from "./components/Social"
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -21,8 +21,8 @@ function App() {
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
       </Flex>
       <Header></Header>
-      <Social></Social>
-      <Profile></Profile>
+      {/* <Social></Social>
+      <Profile></Profile> */}
     </VStack>
   );
 }
